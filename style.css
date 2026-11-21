@@ -19,14 +19,15 @@ body{
 }
 
 aside{
-    width: 30%;
+    width: fit-content;
+    padding: 10px;
     border-radius: 20px;
     background-color: white;
     height: 100vh;
 }
 
 main{
-    width: 70%;
+    width: 100%;
     border-radius: 20px;
     background-color: white;
     height: 100vh;
@@ -42,12 +43,12 @@ main{
     font-weight: bolder;
     font-size: 2rem;
     font-family: 'Fredoka', cursive, sans-serif; 
-    color: #D97757;
+    color: black;
 }
 
 .chat-input{
     background-color: #f5f5f5;
-    width: 750px;
+    width: 800px;
     margin-left: 80px;
     margin-right: 80px;
     border-radius: 50px;
@@ -82,3 +83,45 @@ main{
 .send-icon{
     font-size: 20px;
 }
+
+aside{
+    display: flex;
+    justify-content: center;
+}
+
+aside ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo{
+    background-color: transparent;
+}
+
+.logo a{
+    font-weight: bold;
+    font-family: 'Fredoka', cursive, sans-serif; 
+    color: #D97757;
+    font-size: 25px;
+    
+}
+
+aside li{
+    background-color: #f5f5f5;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+}
+
+
